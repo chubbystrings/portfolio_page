@@ -1,0 +1,284 @@
+@font-face{
+        
+    font-family:emeka;
+    src:url('font/SpaceMono/SpaceMono-Bold.ttf'); 
+    
+  }
+
+  body {
+    position: relative;
+  }
+  
+  /* h1,h2,h3,h4,h5,h6, p, a, button {
+    font-family: emeka;
+  
+  } */
+  h1 {
+    text-align: center;
+  }
+  .dropdown-menu {
+      background: rgb(235, 235, 245);
+
+  }
+
+  .dropdown-menu a {
+      font-family: Verdana, Geneva, Tahoma, sans-serif
+  }
+
+  .navbar {
+      height: 7rem;
+      -webkit-transition: all 0.5;
+      transition: all 0.5s;
+  }
+
+  .cbp-af-header-shrink {
+      height: 2.5rem;
+      
+      
+  }
+  .navbar .socialbtn img {
+    width: 20px;
+    height: 20px;
+    margin-left: 50px;
+  }
+
+  /* Background color*/
+  
+  section#home {background: linear-gradient(-70deg, white 50%, rgb(255, 94, 0) 50%, orange 20%) }
+  section#about-me{background: linear-gradient(-70deg, rgb(255, 94, 0),  orange 60%, 60%, white 60%)}
+  section#experience {background: linear-gradient(-70deg, white 60%, rgb(255, 94, 0) 60%, orange 60%)}
+  section#contact {background: linear-gradient(-70deg, rgb(255, 94, 0),  orange 60%, 60%, white 60%)}
+/* First Section Lading page*/
+  section #first-section {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: 100vh;
+    align-items: center;
+    flex-wrap: wrap;
+    
+    
+  } 
+
+  button[about-me-btn] {
+    cursor: pointer;
+    border: 1px solid  rgba(0,0,0,0.1);
+    background: rgba(0,0,0,0.1);
+    color: black;
+    padding: 8px;
+    
+  }
+
+
+
+  #img-div {
+
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.7);
+    border-radius: 50%;
+    height: 15em;
+    width: 15em;
+    
+  } 
+
+  #img-div img {
+    border-radius: 50%;
+    height: 15em;
+    width: 15em;
+     
+  }
+
+  /* Second Section ABout Me */
+
+  /* section#about-me {
+      background: url('img/background19.jpg');
+      background-attachment: fixed;
+      background-position: center top;
+      background-repeat: no-repeat;
+      background-size: cover;
+    
+    } */
+
+  section #second-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh; 
+  } 
+
+  #bg-about-me {
+      opacity: 0.9;
+      height: 90vh;
+      border-radius: 5%;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 5px 5px 10px 10px rgba(0,0,0,0.7);
+      
+  }
+  #bg-about-me img {
+      border-radius: 50%;
+      width: 150px;
+      height: 150px;
+      
+
+  }
+
+  #bg-about-me p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    
+  }
+
+  
+  /* Third Section Experience*/
+  section #third-section {
+   
+    text-align: center;
+    height: 100vh;
+    max-height: 100vh; 
+   
+  } 
+
+  
+  #third-section img {
+      width: 10em;
+      height: 10em;
+      margin-bottom: 15px;
+  }
+
+
+  /* Fourth Section contact*/
+
+  section #fourth-section {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    height: 100vh;
+    
+  } 
+
+  #bg-contact-me {
+    opacity: 0.9;
+    height: 70vh;
+    border-radius: 5%;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.19), 5px 5px 10px 10px rgba(0,0,0,0.7);
+    
+}
+#bg-contact-me img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    
+
+}
+
+#bg-contact-me p {
+  font-weight: bold;
+  /* font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: bold; */
+  
+}
+
+small{
+  font-weight: bold;
+  text-align: center;
+  
+}
+
+#divForSmallInfo{
+  display: flex;
+  justify-content: center;
+  position: relative;
+  bottom: 150px;
+}
+
+
+
+
+  /**********************************************/
+  .btn:focus, .btn:active {
+    outline: none !important;
+    box-shadow: none !important;
+  }
+
+  
+  .navbar-toggler:focus {
+
+  outline:none !important;
+
+  }
+
+  .navbar {
+    min-height: 80px;
+  }
+
+  .navbar-brand {
+    padding: 0 15px;
+    height: 80px;
+    line-height: 80px;
+  }
+
+  .navbar-toggle {
+    /* (80px - button height 34px) / 2 = 23px */
+    margin-top: 23px;
+    padding: 9px 10px !important;
+  }
+
+  /* Media Query   */
+
+  @media (min-width: 768px) {
+    .navbar-nav > li > a {
+      /* (80px - line-height of 27px) / 2 = 26.5px */
+      padding-top: 26.5px;
+      padding-bottom: 26.5px;
+      line-height: 27px;
+    }
+
+
+
+  }
+
+  @media (max-width: 767px){
+
+    #third-section img {
+      width: 5em;
+      height: 5em;
+      
+    }
+
+
+    #div-1,#div-2,#div-3,#div-4,#div-5{
+      margin-bottom: 5px;
+    }
+
+  }
+
+  @media(max-width: 658px){
+    .navbar {
+      height: 4rem;
+     
+    }
+    #intro{
+      font-size: 20px
+    }
+
+    section #first-section {
+      
+      flex-wrap: wrap-reverse;
+      justify-content: center;
+      
+      
+    } 
+  }
+
+  @media(max-width: 385px){
+
+    .navbar .socialbtn img {
+      
+      margin-left: 20px;
+    }
+
+   
+  }
+
+
+
+
+  

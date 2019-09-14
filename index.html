@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>My Page</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="animate.css">
+    
+  </head>
+  
+  <body is=top data-spy="scroll" data-target="#navbar-example">
+      <div id="navbar-example"> 
+          <nav class="navbar navbar-expand-lg navbar-light fixed-top cbp-af-header">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <a href="" id="homename" class=""></a>
+            <a target="_blank" class="socialbtn"  href="https://twitter.com/chubby_code">
+            <img src="img/twitter_black.png" class="" alt="twitter" >
+            </a>
+            <a target="_blank" class="socialbtn" href="https://www.facebook.com/chubbystrings">
+            <img src="img/facebook_black.png" alt="facebook" >
+            </a>
+            <a target="_blank" class="socialbtn" href="https://github.com/chubbystrings">
+            <img src="img/github2.png" alt="github" >
+            </a>
+            <a target="_blank" class="socialbtn" href="https://www.linkedin.com/in/emeka-okwor-481482176/"><img src="img/linkedin_black.png" alt="linkedin"></a>
+            <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                  <a class="nav-link" href="#top">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#about-me">About Me</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Projects
+                    </a>
+                    <div class="dropdown-menu " aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="#">Fitaz</a>
+                      <hr>
+                      <a class="dropdown-item" href="#">Narcissitic number</a>
+                     <hr>
+                      <a class="dropdown-item" href="#"> Weather App</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link " href="#contact">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </nav>
+      </div>
+      <div id="top"></div>
+    <!-- /*First section landing page*/ -->
+    <section id="home" class="">
+      <div id="first-section" class="container-fluid  ">
+        <div >
+          <h4 id="intro">"Hello My name is Martins, <br>
+            I am a fullstack developer &#128526 yup.<br> Welcome to my page &#128540</h4>
+            
+          <button about-me-btn>Dive In</button>
+          
+        </div>
+        <div id="img-div">
+          <img src="img/photo.png" alt="..." class="img-fluid">
+          
+        </div>
+        
+      </div>
+    </section>
+
+     <!-- /*Section section About me*/ -->
+    <section id="about-me" class="py-5">
+      
+      <div id="second-section" class="container-fluid"> 
+        <div class="container">
+          <div class="row justify-content-center">
+            <div id="bg-about-me" class="col-md-8 bg-light mt-3">
+                <img src="img/photo.png" alt="..." class="img-fluid mt-3">
+                <p>Emeka Martins Okwor is graduate of food science and technology from the </p>
+            </div>
+          </div>
+        </div>    
+        
+      </div>
+    </section>
+
+    <!-- /*Third section Experience */ -->
+    <section id="experience" class="py-5">
+        <h1 class="display-4">Experience</h1>
+      <div id="third-section" class="container-fluid">
+        <div id="row-hide" class="row d-none">
+          <div id="div-1"  class="col-sm-4 anime" >
+            
+            <img src="img/javascript.png" alt='' class="img-fluid">
+          </div>
+          <div id="div-2" class="col-sm-4 anime" >
+              
+              <img src="img/html.png" alt='' class="img-fluid">
+          </div>
+          <div id="div-3" class="col-sm-4 anime" >
+              
+              <img src="img/css.png" alt='' class="img-fluid">
+          </div>
+          <div id="div-4" class="col-sm-4 anime" >
+             
+              <img src="img/php.png" alt='' class="img-fluid">
+          </div>
+          <div id="div-5" class="col-sm-4 anime" >
+             
+              <img src="img/laravel.png" alt='' class="img-fluid">
+          </div>
+        </div>             
+      </div>
+    </section>
+
+
+    <!-- /*Fourth section Contact Me*/ -->
+    <section id="contact" class="py-5">
+        <h1 class="display-4">Contact</h1>
+        <div id="fourth-section" class="container-fluid"> 
+          <div class="container">
+            <div id="contact_form_show" class="row justify-content-center d-none">
+              <div id="bg-contact-me" class="col-md-4 bg-light mt-3">
+                  <form >
+                      <div class="form-group mt-3">
+                        <label for="exampleFormControlInput1">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                      </div>
+                      <div class="form-group">
+                          <label for="exampleFormControlInput1">Name</label>
+                          <input type="text" class="form-control"  placeholder="John Doe" required>
+                        </div>
+                     
+                      <div class="form-group">
+                        <label for="exampleFormControlTextarea1">Message</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" required></textarea>
+                      </div>
+                      <button class="btn btn-default" type="submit">Submit</button>
+                    </form>   
+              </div>
+             
+            </div>
+          </div>    
+          
+        </div>
+        <div id="divForSmallInfo"><small>Site Designed By ChubbyStrings <p>&copy; <script>document.write(new Date().getFullYear());</script></small></div>
+        </div>
+        
+    </section>
+
+    <!-- Optional JavaScript -->
+    <script src='bootstrap/js/jquery.js'></script>
+    <script src='bootstrap/js/popper.min.js'></script>
+    <script src='bootstrap/js/bootstrap.js'></script>
+    <script src="classie.js"></script>
+    <script src="cbpAnimatedHeader.js"></script>
+    
+    
+    
+    
+    <script>
+      $(document).ready(function(){
+        console.log(window.screen.width)
+        
+        //initialize scrollspy
+        $('body').scrollspy({ target: '#navbar-example' });
+        
+
+        //smooth scrolling Jquery
+        $('a[href^="#"]').on('click', function (e) {e.preventDefault(); 
+
+          let target = this.hash,
+              $target = $(target);
+                                                
+          $('html, body').stop().animate({
+          'scrollTop': $target.offset().top
+          }, 1500, 'linear', function () {
+          window.location.hash = target;
+          });
+
+        });
+
+        //Animation bounce for experience section
+
+        let anime = document.querySelectorAll('.anime');
+        let row = document.querySelector('#row-hide')
+        let contact_form_show = document.querySelector('#contact_form_show')
+        window.addEventListener("scroll", function(event) {
+            let scrollTop = $(window).scrollTop();
+                console.log(scrollTop);
+
+                anime.forEach((a) => {
+                  if(scrollTop >= 1337){
+                  row.classList.remove('d-none');
+                  $(a).addClass('animated bounceIn slow');
+                  $('#experience').addClass('bg-light')
+                  }else{
+                  row.classList.add('d-none');
+                  $(a).removeClass('animated bounceIn slow');
+                  $('#experience').removeClass('bg-light')
+                  }
+                });
+
+                if(scrollTop >= 2142){
+                  contact_form_show.classList.remove('d-none');
+                  $(contact_form_show).addClass('animated fadeIn slow')
+                }else{
+                  contact_form_show.classList.add('d-none');
+                  $(contact_form_show).removeClass('animated fadeIn slow');
+                }
+                    
+        }, false);
+
+        
+      });
+    
+    </script>
+  </body>
+</html>
