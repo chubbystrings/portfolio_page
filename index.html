@@ -172,7 +172,7 @@
     
     <script>
       $(document).ready(function(){
-        console.log(window.screen.width)
+        // console.log(window.screen.width)
         
         //initialize scrollspy
         $('body').scrollspy({ target: '#navbar-example' });
@@ -199,7 +199,7 @@
         let contact_form_show = document.querySelector('#contact_form_show')
         window.addEventListener("scroll", function(event) {
             let scrollTop = $(window).scrollTop();
-                console.log(scrollTop);
+                // console.log(scrollTop);
 
                 anime.forEach((a) => {
                   if(scrollTop >= 1337){
@@ -213,13 +213,13 @@
                   }
                 });
 
-                if(scrollTop >= 2142){
-                  contact_form_show.classList.remove('d-none');
-                  $(contact_form_show).addClass('animated fadeIn slow')
-                }else{
-                  contact_form_show.classList.add('d-none');
-                  $(contact_form_show).removeClass('animated fadeIn slow');
-                }
+                // if(scrollTop >= 2142){
+                //   contact_form_show.classList.remove('d-none');
+                //   $(contact_form_show).addClass('animated fadeIn slow')
+                // }else{
+                //   contact_form_show.classList.add('d-none');
+                //   $(contact_form_show).removeClass('animated fadeIn slow');
+                // }
                     
         }, false);
 
